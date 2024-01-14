@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div {
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    div {
+        background-color: wheat;
+    }
+}
+span {
+    font-size: 36px;
+}
+@media screen and (orientation: landscape/* landscape(가로 모드), portrait(세로 모드) */) {
+    span {
+        display: none;
+    }
+}
+
+@media print {
+    body {
+        background-color: tomato;
+    }
+}
