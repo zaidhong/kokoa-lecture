@@ -1,0 +1,18 @@
+body {
+    margin: 20px;
+}
+span {
+    background-color: aqua;
+}
+.tomato {
+    background-color: tomato;
+}
+.teal {
+    background-color: blueviolet;
+    color: white;
+}
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px outset;
+}

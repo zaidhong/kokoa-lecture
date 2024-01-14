@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    margin: 50px;
+}
+form {
+    display: flex;
+    border: 1px solid salmon;
+    padding: 20px;
+}
+form:focus-within {
+    border-color: seagreen;
+}
+form:hover input:focus{
+    background-color: sienna;
+}

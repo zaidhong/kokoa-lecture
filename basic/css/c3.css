@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+#second {
+    background-color: blueviolet;
+}

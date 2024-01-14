@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    margin: 50px;
+}
+span{
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+p span {
+    color: rgb(255, 241, 42);
+}
+div > span {
+    text-decoration: underline;
+}
+p + span {
+    color:white;
+}
+
+input[name~="name"] {
+    background-color: pink;
+}
